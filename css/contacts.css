@@ -1,4 +1,4 @@
-.tournees_container {
+.contacts_container {
     background: var(--white);
     padding: 3em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -6,20 +6,13 @@
     justify-content: space-between;
 }
 
+.contacts_container img {
+    border: solid 7px var(--orange3);
+    width: 500px;
+}
+
 ul li {
     line-height: 30px;
+    list-style-type: none;
+    margin-left: -40px;
 }
-
-.tournees_container span {
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-}
-
-.tournees_container img {
-    border: solid 7px var(--orange3);
-}
-
-img {
-    width: 300px;
-}
-

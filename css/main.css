@@ -14,7 +14,6 @@ body {
 .menu_container ul li a {
     text-decoration: none;
     color: unset;
-
 }
 
 header, footer, h1, h2, h3 {
@@ -40,6 +39,7 @@ main {
     margin-top: 132px;
     width: 100%;
     position: inherit;
+    padding: 2em;
 }
 
 .main_content {
@@ -140,6 +140,7 @@ main {
 
 .img_andy {
     width: 300px;
+    border: solid 7px var(--orange3);
 }
 
 :root {
