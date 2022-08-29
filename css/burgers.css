@@ -1,0 +1,38 @@
+.nos_burgers_container {
+    background: var(--white);
+    padding: 3em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main {
+    padding: 2em;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.bg1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.bg2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bg1 div img {
+    height: 300px;
+    margin-left: 2em;
+    border: solid 7px var(--orange3);
+}
+
+.bg2 div img {
+    height: 300px;
+    margin-right: 2em;
+    border: solid 7px var(--orange3);
+}
